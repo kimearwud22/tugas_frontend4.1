@@ -4,12 +4,15 @@ import image1 from "./img/lenovo.jpg";
 import image2 from "./img/laptophp.jpg";
 import image3 from "./img/laptophuawey.jpg";
 import CardTutorial from "./card";
+import Header from "../Header";
+
 
 const Tempat = () => {
   return (
     <div>
+    <Header/>
       <div className="container">
-        <div className="row">
+        <div className="row mt-3">
           <div className="col col-sm-6 col-md-4 col-lg-3 col-xl-3">
             <CardTutorial
               descripsi={"Lenovo keluaran 2029"}
